@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+}
+.home{
+    display: flex;
+    background-color: rgb(234, 234, 234);
+}
+.first{
+    background-color: black;
+    color: white;
+    height: 92vh;
+    width: 250px;
+    margin: 30px;
+    border-radius: 15px;
+    padding-left: 35px;
+}
+.first h1{
+    padding-top: 35px;
+}
+.comb{
+    display: flex;
+    margin-bottom: 20px;
+}
+.comb img{
+    margin-right: 15px;
+}
+.list{
+    margin-top: 30px;
+    margin-bottom: 240px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.bot{
+    margin-left: 10px;
+    
+}
+.bot a{
+    text-decoration: none;
+    color: white;
+}
+.second{
+    margin: 30px 30px 30px 25px;
+}
+.one{
+    display: flex;
+    
+}
+.one h4{
+    margin-right: 650px;
+    
+}
+.one input{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 250px;
+}
+.one img{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+#pic{
+    border-radius: 30px;
+}
+
+.two{
+    display: flex;
+    
+}
+#box1{
+    background-color: rgb(215, 234, 227);
+}
+#box2{
+    background-color: rgb(230, 219, 207);
+}
+#box3{
+    background-color: rgb(235, 213, 207);
+}
+#box4{
+    background-color: rgb(226, 212, 237);
+}
+.box{
+    height: 85px;
+    width: 255px;
+    margin-right: 32px;
+    margin-left: 2px;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.box h5{
+    margin-top: -10px;
+}
+.box img{
+    margin-left: 200px;
+}
+.three{
+    margin-top: 30px;
+}
+.three img{
+    border-radius: 15px;
+}
+.four img{
+    border-radius: 15px;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.new{
+    display: none;
+}
+
+
+@media only screen and (max-width:992px){
+    .home{
+        display: block;
+    }
+    .first{
+        height: 60px;
+        width:100%;
+        display: flex;
+        margin: 10px;
+        padding: 5px 20px;
+    }
+    .first h1{
+       padding: 10px;
+    }
+    .list{
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .comb{
+        margin-left: 10px;
+    }
+    .bot{
+        display: none;
+    }
+    .one h4{
+        margin-right: 200px;
+    }
+    .two{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .three img{
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .four{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .four img{
+        width: 100%;
+        padding: 15px;
+        height: 300px;
+        margin: 0px;
+    }
+    .comb img{
+        margin: 0px;
+    }
+}
+@media only screen and (max-width:760px){
+    .home{
+        display: block;
+    }
+    .first{
+        height: 60px;
+        width:100%;
+        display: flex;
+        margin: 10px;
+        padding: 5px 20px;
+    }
+    .first h1{
+       padding: 10px;
+    }
+    .list{
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .comb{
+        margin-left: 10px;
+    }
+    .bot{
+        display: none;
+    }
+
+    .comb img{
+        margin: 0px;
+    }
+    .one h4{
+        margin-right: 80px;
+    }
+}
+
+
+@media only screen and (max-width:550px){
+.one h4{
+    display: none;
+}
+.list{
+    display: none;
+    
+}
+.new{
+    display: block;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.first{
+    border-radius: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    
+}
+}
